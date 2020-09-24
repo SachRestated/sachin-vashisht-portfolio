@@ -244,13 +244,13 @@ that ’mystery’ word.</li>
             <div className="resume-content">
               <h3 className="mb-0">RGB Color Game</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li>A recreation of the popular Hangman Game. The aim is to guess the
-hidden word represented by a row of dashes, representing each letter of
-that ’mystery’ word.</li>
+                <li>A simple color identification game, involving a given random RGB value,
+the goal is to guess the color corresponding to that RGB value, among
+various choices. Created using HTML, CSS and JavaScript.</li>
                 <li>Each incorrect guess results in drawing of an element of a hanged man
 stick figure as a tally mark. The game continues till the player guesses all
 the letters or till the stick man is hanged completely. </li>
-                <li>Created usingReactJS Library and ES6 JavaScript. <a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
+                <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. Created using ES6 JavaScript, HTML and CSS. <a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
