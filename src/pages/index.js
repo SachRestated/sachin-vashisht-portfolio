@@ -3,8 +3,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import cpp from '../assets/images/c++.png' ;
-import htmlx from '../assets/images/html5.svg';
-import cssx from '../assets/images/css3.svg';
+import htmlx from '../assets/images/html5.png';
+import cssx from '../assets/images/css3.png';
 import reactx from '../assets/images/react.svg';
 import jsx from '../assets/images/javascript.svg';
 import gitx from '../assets/images/git.svg';
