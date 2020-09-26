@@ -122,7 +122,7 @@ const IndexPage = () => (
               <img src={cssx} alt="css" height="48px" width="48px"/>
             </li>
             <li className="list-inline-item">
-              <img src={htmlx} alt="html" height="54px" width="55px"/>
+              <img src={htmlx} alt="html" height="50px" width="50px"/>
             </li>
             
             <li className="list-inline-item">
