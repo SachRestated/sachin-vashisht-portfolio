@@ -241,7 +241,7 @@ hidden word represented by a row of dashes</strong>, representing each letter of
 that ’mystery’ word.</li>
                 <li>Each incorrect guess results in drawing of an element of a hanged man stick figure as a tally mark.
                 Game continues till the player guesses all the letters or till the stick man is hanged completely.</li> 
-                <li>Created using ReactJS Library and ES6 JavaScript.<a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
+                <li><strong>Created using ReactJS Library and ES6 JavaScript.</strong><a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
