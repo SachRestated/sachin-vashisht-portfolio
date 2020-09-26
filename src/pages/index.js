@@ -214,8 +214,8 @@ const IndexPage = () => (
             <div className="resume-content">
             <h3 className="mb-0">Expenses Manager App</h3>
               <ol style={{listStyle: 'circle'}}>
-                <li>An Expenses Manager App with <strong>support for authentication , user
-accounts, routing, form validation, database storage</strong>.</li>
+                <li>An Expenses Manager App with <strong>support for Authentication , User
+Accounts, Routing, Form Validation, Database Storage</strong>.</li>
                 <li>Allows users to store, track, maintain and edit personal expenses over
 time. <strong>Track expenses based on Description, Amount or search for a
 specific time frame.</strong></li>
@@ -231,11 +231,11 @@ specific time frame.</strong></li>
             <div className="resume-content">
               <h3 className="mb-0">HANGMAN GAME</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li>A recreation of the popular Hangman Game. The aim is to guess the
-hidden word represented by a row of dashes, representing each letter of
+                <li>A recreation of the popular Hangman Game. The aim is to <strong>guess the
+hidden word represented by a row of dashes</strong>, representing each letter of
 that ’mystery’ word.</li>
                 <li>Each incorrect guess results in drawing of an element of a hanged man stick figure as a tally mark.
-                The game continues till the player guesses all the letters or till the stick man is hanged completely.</li> 
+                Game continues till the player guesses all the letters or till the stick man is hanged completely.</li> 
                 <li>Created using ReactJS Library and ES6 JavaScript.<a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
               </ol>
             </div>
@@ -251,9 +251,6 @@ that ’mystery’ word.</li>
                 <li>A simple color identification game, involving a given random RGB value,
 the goal is to guess the color corresponding to that RGB value, among
 various choices.</li>
-                <li>Each incorrect guess results in drawing of an element of a hanged man
-stick figure as a tally mark. The game continues till the player guesses all
-the letters or till the stick man is hanged completely. </li>
                 <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
               </ol>
             </div>
