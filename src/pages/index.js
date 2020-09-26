@@ -38,7 +38,7 @@ const IndexPage = () => (
           </div>
           <p className="lead mb-5">
             I am a Final Year Undergraduate currently pursuing bachelors in Information Tehnology from Delhi Technological University.
-            I am a Web Developer and a Competitive Programmer. I have a strong foundation of Data Structures, Algorithms, Web Development, Problem Solving and
+            I am a Web Developer and a Competitive Programmer, with strong foundation of Data Structures, Algorithms, Web Development, Problem Solving and
             fundamentals of Computer Science.
           </p>
           <div className="social-icons">
