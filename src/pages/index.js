@@ -214,14 +214,11 @@ const IndexPage = () => (
             <div className="resume-content">
             <h3 className="mb-0">Expenses Manager App</h3>
               <ol style={{listStyle: 'circle'}}>
-                <li>An Expenses Manager App with support for authentication , user
-accounts, routing, form validation, database storage.</li>
+                <li>An Expenses Manager App with <strong>support for authentication , user
+accounts, routing, form validation, database storage</strong>.</li>
                 <li>Allows users to store, track, maintain and edit personal expenses over
-time. Track expenses based on Description, Amount or search for a
-specific time frame.</li>
-                <li>Allows users to store, track, maintain and edit personal expenses over
-time. Track expenses based on Description, Amount or search for a
-specific time frame.</li>
+time. <strong>Track expenses based on Description, Amount or search for a
+specific time frame.</strong></li>
                 <li>App deployed at <a href="expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
               </ol>
             </div>
@@ -253,11 +250,11 @@ that ’mystery’ word.</li>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
                 <li>A simple color identification game, involving a given random RGB value,
 the goal is to guess the color corresponding to that RGB value, among
-various choices. Created using HTML, CSS and JavaScript.</li>
+various choices.</li>
                 <li>Each incorrect guess results in drawing of an element of a hanged man
 stick figure as a tally mark. The game continues till the player guesses all
 the letters or till the stick man is hanged completely. </li>
-                <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. Created using ES6 JavaScript, HTML and CSS. <a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
+                <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
