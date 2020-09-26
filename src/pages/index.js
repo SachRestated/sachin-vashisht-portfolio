@@ -249,7 +249,7 @@ that ’mystery’ word.</li>
               <h3 className="mb-0">RGB Color Game</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
                 <li>A simple color identification game, involving a given random RGB value,
-the goal is to guess the color corresponding to that RGB value, among
+the goal is to <strong>guess the color corresponding to that RGB value</strong>, among
 various choices.</li>
                 <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
               </ol>
@@ -271,7 +271,7 @@ various choices.</li>
           <h2 className="mb-5">Interests</h2>
           <div style={{textAlign: "justify"}}>
           <p>
-            Apart from being a web developer and a competitive programmer, I ardently follow football and cricket. 
+            Apart from being a Web Developer and a Competitive Programmer, I ardently follow Football and Cricket. 
             I love playing Table Tennis, Chess and Badminton as well.
           </p>
           <p className="mb-0">
