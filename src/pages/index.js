@@ -224,7 +224,7 @@ Accounts, Routing, Form Validation, Database Storage</strong>.</li>
 time. <strong>Track expenses based on Description, Amount or search for a
 specific time frame.</strong></li>
                 <li>Build using <strong>Webpack, ReactJS and Redux with Google Login Support and uses Firebase Realtime Database System.</strong></li>
-                <li>App deployed at <a href="expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
+                <li>App deployed at <a href="https://expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
