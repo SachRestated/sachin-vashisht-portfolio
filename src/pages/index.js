@@ -11,7 +11,6 @@ import gitx from '../assets/images/git.svg';
 import githubx from '../assets/images/github.svg';
 import pythonx from '../assets/images/python.svg';
 import redux from '../assets/images/redux.svg';
-import sass from '../assets/images/sass.svg'
 import firebase from '../assets/images/firebase.svg';
 import npm from '../assets/images/npm.svg';
 import webpack from '../assets/images/webpack.svg';
@@ -136,9 +135,6 @@ const IndexPage = () => (
             </li>
             <li className="list-inline-item">
               <img src={githubx} alt="github" height="48px" width="48px"/>
-            </li>
-            <li className="list-inline-item">
-              <img src={sass} alt="sass" height="48px" width="48px"/>
             </li>
             <li className="list-inline-item">
               <img src={firebase} alt="firebase" height="48px" width="48px"/>
