@@ -275,10 +275,10 @@ various choices.</li>
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <div>
-            <img src={reading} alt="reading" height="22%" width='18%' style={{marginLeft: '5%'}}/>
-            <img src={webdev} alt="webdev" height="22%" width='18%' style={{ marginLeft: '5%' }}/>
-            <img src={ai} alt="ai" height="22%" width='18%' style={{ marginLeft: '5%' }}/>
-            <img src={blog} alt="webdev" height="22%" width='20%' style={{ marginLeft: '5%' }}/>
+            <img src={reading} alt="reading" height="24%" width='20%'/>
+            <img src={webdev} alt="webdev" height="24%" width='20%' style={{ marginLeft: '5%' }}/>
+            <img src={ai} alt="ai" height="24%" width='20%' style={{ marginLeft: '5%' }}/>
+            <img src={blog} alt="webdev" height="24%" width='20%' style={{ marginLeft: '5%' }}/>
           </div>
           <div style={{textAlign: "justify"}}>
           <p>
