@@ -116,11 +116,19 @@ const IndexPage = () => (
               <img src={cpp} alt="c" height="54px" width="55px"/>
             </li>
             <li className="list-inline-item">
-              <img src={pythonx} alt="python" height="54px" width="55px"/>
+              <img src={jsx} alt="js" height="48px" width="48px" />
             </li>
             <li className="list-inline-item">
-              <img src={jsx} alt="js" height="48px" width="48px"/>
+              <img src={reactx} alt="react" height="48px" width="48px" />
             </li>
+            <li className="list-inline-item">
+              <img src={pythonx} alt="python" height="54px" width="55px" />
+            </li>
+            <li className="list-inline-item">
+              <img src={redux} alt="redux" height="48px" width="48px" />
+            </li>
+            
+            
             <li className="list-inline-item">
               <img src={cssx} alt="css" height="48px" width="48px"/>
             </li>
@@ -128,12 +136,8 @@ const IndexPage = () => (
               <img src={htmlx} alt="html" height="50px" width="50px"/>
             </li>
             
-            <li className="list-inline-item">
-              <img src={reactx} alt="react" height="48px" width="48px"/>
-            </li>
-            <li className="list-inline-item">
-              <img src={redux} alt="redux" height="48px" width="48px"/>
-            </li>
+            
+            
             <li className="list-inline-item">
               <img src={gitx} alt="git" height="48px" width="48px"/>
             </li>
