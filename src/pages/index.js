@@ -18,6 +18,7 @@ import reading from '../assets/images/reading.svg';
 import webdev from '../assets/images/webdev.svg';
 import ai from '../assets/images/ai.svg';
 import blog from '../assets/images/Blog.svg';
+import nodejs from '../assets/images/nodejs.svg'
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -120,6 +121,9 @@ const IndexPage = () => (
             </li>
             <li className="list-inline-item">
               <img src={reactx} alt="react" height="48px" width="48px" />
+            </li>
+            <li className="list-inline-item">
+              <img src={nodejs} alt="js" height="48px" width="48px" />
             </li>
             <li className="list-inline-item">
               <img src={pythonx} alt="python" height="54px" width="55px" />
