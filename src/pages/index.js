@@ -19,6 +19,7 @@ import webdev from '../assets/images/webdev.svg';
 import ai from '../assets/images/ai.svg';
 import blog from '../assets/images/Blog.svg';
 import nodejs from '../assets/images/nodejs.svg'
+import mongodb from '../assets/images/mongodb.svg'
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -149,6 +150,9 @@ const IndexPage = () => (
               <img src={githubx} alt="github" height="48px" width="48px"/>
             </li>
             <li className="list-inline-item">
+              <img src={mongodb} alt="github" height="48px" width="48px"/>
+            </li>
+            <li className="list-inline-item">
               <img src={firebase} alt="firebase" height="48px" width="48px"/>
             </li>
             <li className="list-inline-item">
@@ -224,15 +228,31 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+            <h3 className="mb-0">Chat Application</h3>
+              <ol style={{listStyle: 'circle'}}>
+                <li style={{'margin-bottom': '5px'}}>A NodeJS Real-time Chat-Application developed using <strong>Express and Socket.IO Libraries.</strong></li>
+                <li style={{'margin-bottom': '5px'}}>Allows users to <strong>join an active chat room or make their own chat rooms</strong></li>
+                <li style={{ 'margin-bottom': '5px' }}><strong>Prevents users from using Profane and Abusive English words</strong> in chats</li>
+                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://sach-chat-app.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Chat-App">Github</a> repository</li>
+              </ol>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">October'20 - November'20</span>
+            </div>
+          </div>
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
             <h3 className="mb-0">Expenses Manager App</h3>
               <ol style={{listStyle: 'circle'}}>
-                <li>An Expenses Manager App with <strong>support for Authentication , User
+                <li style={{ 'margin-bottom': '5px' }}>An Expenses Manager App with <strong>support for Authentication , User
 Accounts, Routing, Form Validation, Database Storage</strong>.</li>
-                <li>Allows users to store, track, maintain and edit personal expenses over
+                <li style={{ 'margin-bottom': '5px' }}>Allows users to store, track, maintain and edit personal expenses over
 time. <strong>Track expenses based on Description, Amount or search for a
 specific time frame.</strong></li>
-                <li>Build using <strong>Webpack, ReactJS and Redux with Google Login Support and uses Firebase Realtime Database System.</strong></li>
-                <li>App deployed at <a href="https://expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
+                <li style={{'margin-bottom': '5px'}}>Build using <strong>Webpack, ReactJS and Redux with Google Login Support and uses Firebase Realtime Database System.</strong></li>
+                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
@@ -244,12 +264,12 @@ specific time frame.</strong></li>
             <div className="resume-content">
               <h3 className="mb-0">HANGMAN GAME</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li>A recreation of the popular Hangman Game. The aim is to <strong>guess the
+                <li style={{ 'margin-bottom': '5px' }}>A recreation of the popular Hangman Game. The aim is to <strong>guess the
 hidden word represented by a row of dashes</strong>, representing each letter of
 that ’mystery’ word.</li>
-                <li>Each incorrect guess results in drawing of an element of a hanged man stick figure as a tally mark.
+                <li style={{ 'margin-bottom': '5px' }}>Each incorrect guess results in drawing of an element of a hanged man stick figure as a tally mark.
                 Game continues till the player guesses all the letters or till the stick man is hanged completely.</li> 
-                <li><strong>Created using ReactJS Library and ES6 JavaScript.</strong><a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
+                <li style={{ 'margin-bottom': '5px' }}><strong>Created using ReactJS Library and ES6 JavaScript.</strong><a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
@@ -261,10 +281,10 @@ that ’mystery’ word.</li>
             <div className="resume-content">
               <h3 className="mb-0">RGB Color Game</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li>A simple color identification game, involving a given random RGB value,
+                <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
 the goal is to <strong>guess the color corresponding to that RGB value</strong>, among
 various choices.</li>
-                <li>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
+                <li style={{ 'margin-bottom': '5px' }}>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
               </ol>
             </div>
             <div className="resume-date text-md-right">
