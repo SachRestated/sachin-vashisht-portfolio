@@ -228,6 +228,22 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+            <h3 className="mb-0">MERN E-Commerce Website</h3>
+              <ol style={{listStyle: 'circle'}}>
+                <li style={{ 'margin-bottom': '5px' }}>E-Commerce Website using <strong>React, Redux, Node, Express & MongoDB</strong></li>
+                <li style={{ 'margin-bottom': '5px' }}>Full featured shopping cart integrated with <strong>PayPal & credit/debit to replicate fake payments</strong></li>
+                <li style={{ 'margin-bottom': '5px' }}><strong>Product rating & review system</strong></li>
+                <li style={{ 'margin-bottom': '5px' }}>Admin area to manage customers, products & orders</li>
+                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://mern-app-shop.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Ecommerce-Mern-App">Github</a> repository</li>
+              </ol>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">October'20 - November'20</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
             <h3 className="mb-0">Chat Application</h3>
               <ol style={{listStyle: 'circle'}}>
                 <li style={{'margin-bottom': '5px'}}>A NodeJS Real-time Chat-Application developed using <strong>Express and Socket.IO Libraries.</strong></li>
@@ -277,8 +293,8 @@ that ’mystery’ word.</li>
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between" style={{ marginTop: '40px' }}>
+            <div className="resume-content" >
               <h3 className="mb-0">RGB Color Game</h3>
               <ol style={{listStyle: "circle", textAlign: "justify"}}>
                 <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
