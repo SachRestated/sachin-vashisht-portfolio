@@ -51,7 +51,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a Final Year Undergraduate currently pursuing bachelors in Information Tehnology from Delhi Technological University.
+            I am a Final Year Undergraduate currently pursuing bachelors in Information Technology from Delhi Technological University.
             I am a Web Developer and a Competitive Programmer, with a strong foundation of Data Structures, Algorithms, Web Development, Problem Solving and
             fundamentals of Computer Science.
           </p>
@@ -431,7 +431,7 @@ specific time frame.</strong></li>
               <Card.Body>
                 <Card.Title>Hangman Game</Card.Title>
                 <Card.Text>
-                  <ol style={{listStyle: "circle"}}>
+                  <ol style={{listStyle: "circle", textAlign: "justify"}}>
                     <li style={{ 'margin-bottom': '5px' }}>A recreation of the popular Hangman Game. The aim is to <strong>guess the
     hidden word represented by a row of dashes</strong></li>
                     <li style={{ 'margin-bottom': '5px' }}>Incorrect guesses result in drawing of an element 
@@ -481,7 +481,7 @@ specific time frame.</strong></li>
               <Card.Body>
                 <Card.Title>RGB Color Guessing Game</Card.Title>
                 <Card.Text>
-                  <ol style={{ listStyle: "circle" }}>
+                  <ol style={{ listStyle: "circle", textAlign:'justify' }}>
                     <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
 the goal is to <strong>guess the color corresponding to that RGB value</strong>, among
 various choices.</li>
