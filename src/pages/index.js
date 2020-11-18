@@ -431,7 +431,7 @@ specific time frame.</strong></li>
               <Card.Body>
                 <Card.Title>Hangman Game</Card.Title>
                 <Card.Text>
-                  <ol style={{listStyle: "circle", textAlign: "justify"}}>
+                  <ol style={{listStyle: "circle"}}>
                     <li style={{ 'margin-bottom': '5px' }}>A recreation of the popular Hangman Game. The aim is to <strong>guess the
     hidden word represented by a row of dashes</strong></li>
                     <li style={{ 'margin-bottom': '5px' }}>Incorrect guesses result in drawing of an element 
@@ -481,13 +481,12 @@ specific time frame.</strong></li>
               <Card.Body>
                 <Card.Title>RGB Color Guessing Game</Card.Title>
                 <Card.Text>
-                  <ol style={{ listStyle: "circle", textAlign: "justify" }}>
+                  <ol style={{ listStyle: "circle" }}>
                     <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
 the goal is to <strong>guess the color corresponding to that RGB value</strong>, among
 various choices.</li>
                     <li style={{ 'margin-bottom': '5px' }}>
-                      2 Difficulty Level Modes (Easy and Hard) with different number of choices. 
-                      <strong>Created using ES6 JavaScript, HTML and CSS. </strong>
+                      2 Difficulty Level Modes (Easy and Hard) with different number of choices.
                     </li>
 
                   </ol>
