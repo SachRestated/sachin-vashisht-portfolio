@@ -360,7 +360,7 @@ const IndexPage = () => (
             
             <Card>
               <Card.Header>June'20 - July'20</Card.Header>
-              <Card.Img variant="top" src={expense} fluid style={{height: '290px'}}/>
+              <Card.Img variant="top" src={expense} fluid />
               <Card.Body>
                 <Card.Title>Expenses Manager App</Card.Title>
                 <Card.Text>
@@ -427,7 +427,7 @@ specific time frame.</strong></li>
 
             <Card>
               <Card.Header>July'19 - August'19</Card.Header>
-              <Card.Img variant="top" src={hangman} fluid style={{height: '290px'}}/>
+              <Card.Img variant="top" src={hangman} fluid />
               <Card.Body>
                 <Card.Title>Hangman Game</Card.Title>
                 <Card.Text>
@@ -477,7 +477,7 @@ specific time frame.</strong></li>
 
             <Card>
               <Card.Header>July'19 - August'19</Card.Header>
-              <Card.Img variant="top" src={color}  style={{height: '290px'}}/>
+              <Card.Img variant="top" src={color} />
               <Card.Body>
                 <Card.Title>RGB Color Guessing Game</Card.Title>
                 <Card.Text>
