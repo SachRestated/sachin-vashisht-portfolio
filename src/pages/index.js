@@ -160,7 +160,6 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <img src={mongodb} alt="github" height="48px" width="48px"/>
             </li>
-            4
             <li className="list-inline-item">
               <img src={npm} alt="npm" height="48px" width="48px"/>
             </li>
