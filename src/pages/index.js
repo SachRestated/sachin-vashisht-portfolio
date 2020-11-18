@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
+import {Card, CardDeck, Button, ButtonGroup, ButtonToolbar, Container, Row, Col} from 'react-bootstrap'
 import cpp from '../assets/images/c++.png' ;
-import htmlx from '../assets/images/html5.png';
-import cssx from '../assets/images/css3.png';
+import htmlx from '../assets/images/html5.svg';
+import cssx from '../assets/images/css3.svg';
 import reactx from '../assets/images/react.svg';
 import jsx from '../assets/images/javascript.svg';
 import gitx from '../assets/images/git.svg';
@@ -20,9 +20,17 @@ import ai from '../assets/images/ai.svg';
 import blog from '../assets/images/Blog.svg';
 import nodejs from '../assets/images/nodejs.svg'
 import mongodb from '../assets/images/mongodb.svg'
+
+import chat from '../assets/images/chat.png'
+import mern from '../assets/images/mern.png'
+import expense from '../assets/images/expense.png'
+import hangman from '../assets/images/hangman.png'
+import color from '../assets/images/color.png'
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import '../assets/bootstraped.min.css'
+
 
 const IndexPage = () => (
   <Layout>
@@ -135,10 +143,10 @@ const IndexPage = () => (
             
             
             <li className="list-inline-item">
-              <img src={cssx} alt="css" height="48px" width="48px"/>
+              <img src={cssx} alt="css" height="42px" width="42px"/>
             </li>
             <li className="list-inline-item">
-              <img src={htmlx} alt="html" height="50px" width="50px"/>
+              <img src={htmlx} alt="html" height="46px" width="48px"/>
             </li>
             
             
@@ -152,9 +160,7 @@ const IndexPage = () => (
             <li className="list-inline-item">
               <img src={mongodb} alt="github" height="48px" width="48px"/>
             </li>
-            <li className="list-inline-item">
-              <img src={firebase} alt="firebase" height="48px" width="48px"/>
-            </li>
+            4
             <li className="list-inline-item">
               <img src={npm} alt="npm" height="48px" width="48px"/>
             </li>
@@ -225,89 +231,310 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Projects</h2>
+          
+          <CardDeck>
+            <Card>
+              <Card.Header>October'20 - November'20</Card.Header>
+              <Card.Img variant="top" src={mern} fluid/>
+              <Card.Body style={{marginBottom: '0'}}>
+                <Card.Title>Mern Ecommerce App</Card.Title>
+                <Card.Text>
+                  <ol style={{ listStyle: 'circle' }}>
+                    <li style={{ 'margin-bottom': '5px' }}>E-Commerce Website using <strong>React, Redux, Node, Express & MongoDB</strong></li>
+                    <li style={{ 'margin-bottom': '5px' }}><strong>PayPal & credit/debit Integrated to replicate payments</strong></li>
+                    <li style={{ 'margin-bottom': '5px' }}><strong>Product rating & review system</strong></li>
+                    <li>Admin area to manage customers, products & orders</li>
+                    
+                  </ol>
+                  <Container>
+                    <Row>
+                      <Col md={4} xs={4} sm={4} style={{ paddingLeft: '0', paddingRight: '0', paddingTop: '15px' }}>
+                        Built Using
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                        <img src={nodejs} alt="nodejs" height="45px" width="45px" />
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                        <img src={reactx} alt="react" height="48px" width="48px" />
+                      </Col>
+                      <Col md={{ span: 4, offset: 4 }} xs={{ span: 4, offset: 4 }} sm={{ span: 4, offset: 4 }}>
+                        <img src={mongodb} alt="mongodb" height="48px" width="48px" />
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                        <img src={redux} alt="redux" height="48px" width="48px" />
+                      </Col>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-            <h3 className="mb-0">MERN E-Commerce Website</h3>
-              <ol style={{listStyle: 'circle'}}>
-                <li style={{ 'margin-bottom': '5px' }}>E-Commerce Website using <strong>React, Redux, Node, Express & MongoDB</strong></li>
-                <li style={{ 'margin-bottom': '5px' }}>Full featured shopping cart integrated with <strong>PayPal & credit/debit to replicate fake payments</strong></li>
-                <li style={{ 'margin-bottom': '5px' }}><strong>Product rating & review system</strong></li>
-                <li style={{ 'margin-bottom': '5px' }}>Admin area to manage customers, products & orders</li>
-                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://mern-app-shop.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Ecommerce-Mern-App">Github</a> repository</li>
-              </ol>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">October'20 - November'20</span>
-            </div>
-          </div>
+                    </Row>
+                  </Container>
+                    
+                </Card.Text>
+              </Card.Body>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-            <h3 className="mb-0">Chat Application</h3>
-              <ol style={{listStyle: 'circle'}}>
-                <li style={{'margin-bottom': '5px'}}>A NodeJS Real-time Chat-Application developed using <strong>Express and Socket.IO Libraries.</strong></li>
-                <li style={{'margin-bottom': '5px'}}>Allows users to <strong>join an active chat room or make their own chat rooms</strong></li>
-                <li style={{ 'margin-bottom': '5px' }}><strong>Prevents users from using Profane and Abusive English words</strong> in chats</li>
-                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://sach-chat-app.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Chat-App">Github</a> repository</li>
-              </ol>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">October'20 - November'20</span>
-            </div>
-          </div>
+              <Card.Footer>
+                <Container>
+                    <Row>
+                      <Col>
+                        <a className='github-btn' href="https://github.com/SachRestated/Ecommerce-Mern-App">
+                          <Button variant="outline-success" className='github-btn'>
+                            Github Repo
+                          </Button>
+                        </a>
+                      </Col>
+                      <Col>
+                        <a className='app-btn' href="https://mern-app-shop.herokuapp.com/">
+                          <Button variant="outline-info" className='app-btn'>
+                            Check it out
+                          </Button>
+                        </a>
+                      </Col>
+                    </Row>
+                  </Container>
+              </Card.Footer>
+
+            </Card>
 
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-            <h3 className="mb-0">Expenses Manager App</h3>
-              <ol style={{listStyle: 'circle'}}>
-                <li style={{ 'margin-bottom': '5px' }}>An Expenses Manager App with <strong>support for Authentication , User
+            <Card>
+              <Card.Header>October'20 - November'20</Card.Header>
+              <Card.Img variant="top" src={chat} fluid />
+              <Card.Body>
+                <Card.Title>Chat Application</Card.Title>
+                <Card.Text>
+                  <ol style={{ listStyle: 'circle' }}>
+                    <li style={{ 'margin-bottom': '5px' }}>A Real-time Chat-Application developed using <strong>Express and Socket.IO Libraries.</strong></li>
+                    <li style={{ 'margin-bottom': '5px' }}><strong>Join an active chat room or make your own chat rooms</strong></li>
+                    <li style={{ 'margin-bottom': '5px' }}><strong>Prevents users from using Profane and Abusive English words</strong> in chats</li>
+                    
+                  </ol>
+
+                  <Container>
+                    <Row>
+                      <Col md={4} xs={4} sm={4} style={{ paddingLeft: '0', paddingRight: '0', paddingTop: '15px' }}>
+                        Built Using
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                          <img src={jsx} alt="js" height="45px" width="45px" />
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                          <img src={nodejs} alt="nodejs" height="48px" width="48px" />
+                      </Col>
+                      <Col md={{ span: 4, offset: 4 }} xs={{ span: 4, offset: 4 }} sm={{ span: 4, offset: 4 }}>
+                          <img src={cssx} alt="css" height="45px" width="45px" />
+                      </Col>
+                      <Col md={4} xs={4} sm={4}>
+                        <img src={htmlx} alt="html" height="48px" width="48px" />
+                      </Col>
+
+                    </Row>
+                  </Container>
+                </Card.Text>
+              </Card.Body>
+
+
+              <Card.Footer>
+                <Container>
+                  <Row>
+                    <Col>
+                      <a className='github-btn' href="https://github.com/SachRestated/Chat-App">
+                        <Button variant="outline-success" className='github-btn'>
+                          Github Repo
+                          </Button>
+                      </a>
+                    </Col>
+                    <Col>
+                      <a className='app-btn' href="https://sach-chat-app.herokuapp.com/">
+                        <Button variant="outline-info" className='app-btn'>
+                          Check it out
+                          </Button>
+                      </a>
+                    </Col>
+                  </Row>
+                </Container>
+              </Card.Footer>
+            </Card>
+
+
+            
+          </CardDeck>
+
+          <CardDeck style={{marginTop: '40px'}}>
+            
+            <Card>
+              <Card.Header>June'20 - July'20</Card.Header>
+              <Card.Img variant="top" src={expense} fluid style={{height: '290px'}}/>
+              <Card.Body>
+                <Card.Title>Expenses Manager App</Card.Title>
+                <Card.Text>
+                  <ol style={{ listStyle: 'circle' }}>
+                    <li style={{ 'margin-bottom': '5px' }}>An Expenses Manager App with <strong>support for Authentication , User
 Accounts, Routing, Form Validation, Database Storage</strong>.</li>
-                <li style={{ 'margin-bottom': '5px' }}>Allows users to store, track, maintain and edit personal expenses over
-time. <strong>Track expenses based on Description, Amount or search for a
+                    <li style={{ 'margin-bottom': '5px' }}><strong>Track expenses based on Description, Amount or search for a
 specific time frame.</strong></li>
-                <li style={{'margin-bottom': '5px'}}>Build using <strong>Webpack, ReactJS and Redux with Google Login Support and uses Firebase Realtime Database System.</strong></li>
-                <li style={{ 'margin-bottom': '5px' }}>App deployed at <a href="https://expensify-app-redux.herokuapp.com/">Heroku</a> with source code available at <a href="https://github.com/SachRestated/Expensify-App-Redux">Github</a> repository</li>
-              </ol>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">June'20 - July'20</span>
-            </div>
-          </div>
+                    
+                  </ol>
+                  <Container>
+                    <Row>
+                      <Col md={3} xs={3} sm={3} style={{paddingLeft: '0', paddingRight: '0', paddingTop: '15px'}}>
+                        Built Using
+                      </Col>
+                      <Col md={9} xs={9} sm={9} style={{ paddingLeft: '0', paddingRight: '0' }}>
+                        <ul className="list-inline dev-icons">
+                          <li className="list-inline-item" style={{height: '55px'}}>
+                            <img src={jsx} alt="js" height="45px" width="45px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={firebase} alt="firebase" height="48px" width="48px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={reactx} alt="react" height="46px" width="46px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={redux} alt="redux" height="48px" width="48px" />
+                          </li> 
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={webpack} alt="webpack" height="48px" width="48px" />
+                          </li>
+                          
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">HANGMAN GAME</h3>
-              <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li style={{ 'margin-bottom': '5px' }}>A recreation of the popular Hangman Game. The aim is to <strong>guess the
-hidden word represented by a row of dashes</strong>, representing each letter of
-that ’mystery’ word.</li>
-                <li style={{ 'margin-bottom': '5px' }}>Each incorrect guess results in drawing of an element of a hanged man stick figure as a tally mark.
-                Game continues till the player guesses all the letters or till the stick man is hanged completely.</li> 
-                <li style={{ 'margin-bottom': '5px' }}><strong>Created using ReactJS Library and ES6 JavaScript.</strong><a href="https://sachrestated.github.io/HangmanGame/">Link to the game </a></li>
-              </ol>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July'19 - August'19</span>
-            </div>
-          </div>
+                        </ul>
+                      </Col>
+                    </Row>
+                  </Container>            
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between" style={{ marginTop: '40px' }}>
-            <div className="resume-content" >
-              <h3 className="mb-0">RGB Color Game</h3>
-              <ol style={{listStyle: "circle", textAlign: "justify"}}>
-                <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Container>
+                  <Row>
+                    <Col>
+                      <a className='github-btn' href="https://github.com/SachRestated/Expensify-App-Redux">
+                        <Button variant="outline-success" className='github-btn'>
+                          Github Repo
+                            </Button>
+                      </a>
+                    </Col>
+                    <Col>
+                      <a className='app-btn' href="https://expensify-app-redux.herokuapp.com/">
+                        <Button variant="outline-info" className='app-btn'>
+                          Check it out
+                            </Button>
+                      </a>
+                    </Col>
+                  </Row>
+                </Container>  
+              </Card.Footer>
+              
+            </Card>
+
+            <Card>
+              <Card.Header>July'19 - August'19</Card.Header>
+              <Card.Img variant="top" src={hangman} fluid style={{height: '290px'}}/>
+              <Card.Body>
+                <Card.Title>Hangman Game</Card.Title>
+                <Card.Text>
+                  <ol style={{listStyle: "circle", textAlign: "justify"}}>
+                    <li style={{ 'margin-bottom': '5px' }}>A recreation of the popular Hangman Game. The aim is to <strong>guess the
+    hidden word represented by a row of dashes</strong></li>
+                    <li style={{ 'margin-bottom': '5px' }}>Incorrect guesses result in drawing of an element 
+                    of a hanged man stick. Game continues till the player guesses all the letters or till the 
+                    stick man is hanged completely.</li> 
+                  </ol>
+
+                  <Container>
+                    <Row>
+                      <Col xl={3} md={3} xs={3} sm={3} style={{ paddingLeft: '0', paddingRight: '0', paddingTop: '25px' }}>
+                        Built Using
+                      </Col>
+                      <Col xl={9} md={9} xs={9} sm={9} style={{ paddingLeft: '0', paddingRight: '0' }}>
+                        <ul className="list-inline dev-icons">
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={jsx} alt="js" height="45px" width="45px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={reactx} alt="react" height="46px" width="46px" />
+                          </li>
+                          
+                        </ul>
+                      </Col>
+                    </Row>
+                  </Container>       
+
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Container>
+                  <Row>
+                    <Col>
+                      <a className='app-btn' href="https://sachrestated.github.io/HangmanGame/">
+                        <Button variant="outline-info" className='app-btn'>
+                          Check it out
+                            </Button>
+                      </a>
+                    </Col>
+                  </Row>
+                </Container>  
+              </Card.Footer>
+            </Card>
+
+            <Card>
+              <Card.Header>July'19 - August'19</Card.Header>
+              <Card.Img variant="top" src={color}  style={{height: '290px'}}/>
+              <Card.Body>
+                <Card.Title>RGB Color Guessing Game</Card.Title>
+                <Card.Text>
+                  <ol style={{ listStyle: "circle", textAlign: "justify" }}>
+                    <li style={{ 'margin-bottom': '5px' }}>A simple color identification game, involving a given random RGB value,
 the goal is to <strong>guess the color corresponding to that RGB value</strong>, among
 various choices.</li>
-                <li style={{ 'margin-bottom': '5px' }}>2 Difficulty Level Modes (Easy and Hard) with different number of choices. <strong>Created using ES6 JavaScript, HTML and CSS. </strong><a href="https://sachrestated.github.io/ColorGame/game.html">Link to the game </a></li>
-              </ol>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">May'19 - June'19</span>
-            </div>
+                    <li style={{ 'margin-bottom': '5px' }}>
+                      2 Difficulty Level Modes (Easy and Hard) with different number of choices. 
+                      <strong>Created using ES6 JavaScript, HTML and CSS. </strong>
+                    </li>
+
+                  </ol>
+
+                  <Container>
+                    <Row>
+                      <Col xl={3} md={3} xs={3} sm={3} style={{ paddingLeft: '0', paddingRight: '0', paddingTop: '25px' }}>
+                        Built Using
+                      </Col>
+                      <Col xl={9} md={9} xs={9} sm={9} style={{ paddingLeft: '0', paddingRight: '0' }}>
+                        <ul className="list-inline dev-icons">
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={jsx} alt="js" height="45px" width="45px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={cssx} alt="css" height="46px" width="46px" />
+                          </li>
+                          <li className="list-inline-item" style={{ height: '55px' }}>
+                            <img src={htmlx} alt="html" height="46px" width="46px" />
+                          </li>
+                          
+                        </ul>
+                      </Col>
+                    </Row>
+                  </Container>
+
+                </Card.Text>
+              </Card.Body>
+              <Card.Footer>
+                <Container>
+                  <Row>
+                    <Col>
+                      <a className='app-btn' href="https://sachrestated.github.io/ColorGame/game.html">
+                        <Button variant="outline-info" className='app-btn'>
+                          Check it out
+                            </Button>
+                      </a>
+                    </Col>
+                  </Row>
+                </Container>
+              </Card.Footer>
+            </Card>
+          </CardDeck>
+
+
           </div>
-        </div>
       </section>
 
       <hr className="m-0" />

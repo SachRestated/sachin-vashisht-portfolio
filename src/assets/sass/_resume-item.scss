@@ -9,6 +9,29 @@ section.resume-section {
     }
   }
 }
+// {color: '#4bbf73', textDecoration: 'none'}
+.github-btn {
+  color: #4bbf73; 
+  text-decoration: none
+}
+
+.github-btn:hover {
+  color: white;
+  text-decoration: none
+}
+
+.app-btn {
+  color: #1f9bcf; 
+  text-decoration: none
+}
+
+.app-btn:hover {
+  color: white;
+  text-decoration: none
+}
+
+
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
