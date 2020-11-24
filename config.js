@@ -21,6 +21,11 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/sachin-vashisht-17672a193/',
+    },
+    {
+      icon: 'fa-dev',
+      name: 'Dev',
+      url: 'https://dev.to/devdios',
     }
   ],
   email: 'sachinvashisht1999@gmail.com',
