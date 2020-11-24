@@ -555,9 +555,11 @@ various choices.</li>
             I love playing Table Tennis, Chess and Badminton as well.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of motivational self-help books, newsletters and blog posts. I am an aspiring blogger(as a side interest), and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the web development and AI (Artificial Intelligence) world.
+              When forced indoors,  I follow a number of motivational self-help books, newsletters 
+              and blogs. I have started blogging actively on <a href="https://sachinvashisht.hashnode.dev">
+              Hashnode</a> and <a href="https://dev.to/devdios">Dev</a>, and I spend a 
+              large amount of my free time exploring the latest technology advancements in the 
+              web development and AI (Artificial Intelligence) world.
           </p>
           </div>
         </div>
