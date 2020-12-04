@@ -51,10 +51,16 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am a Final Year Undergraduate currently pursuing bachelors in Information Technology from Delhi Technological University.
-            I am a Web Developer and a Competitive Programmer, with a strong foundation of Data Structures, Algorithms, Web Development, Problem Solving and
-            fundamentals of Computer Science.
+            Hi 👋🏻, I am Sachin Vashisht, a Web Developer and Competitive Programmer from New Delhi, India 🇮🇳
+
+I am final year student currently pursuing B Tech. in Information Technology from Delhi Technological University(Formerly known as Delhi College of Engineering).
           </p>
+          <p className="lead mb-5">
+            My areas of interest are Web Development, Problem Solving, Artificial Intelligence and Machine Learning. I am currently working with C++, Python, JavaScript and MERN(MongoDB, Express, ReactJs, Node.Js) Stack.
+
+            I have a strong foundation of Data Structures, Algorithms and Computer Science Fundamentals. I am currently looking for remote internships for web development and software development roles.
+          </p>
+
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social;
