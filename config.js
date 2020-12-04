@@ -26,6 +26,11 @@ module.exports = {
       icon: 'fa-dev',
       name: 'Dev',
       url: 'https://dev.to/devdios',
+    },
+    {
+      icon: 'fab fa-blogger',
+      name: 'Blog',
+      url: 'https://sachinvashisht.hashnode.dev/'
     }
   ],
   email: 'sachinvashisht1999@gmail.com',
