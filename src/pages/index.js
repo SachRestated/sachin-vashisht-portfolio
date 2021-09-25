@@ -21,7 +21,6 @@ import blog from '../assets/images/Blog.svg';
 import nodejs from '../assets/images/nodejs.svg'
 import mongodb from '../assets/images/mongodb.svg'
 
-import chat from '../assets/images/chat.png'
 import mern from '../assets/images/mern.png'
 import expense from '../assets/images/expense.png'
 import hangman from '../assets/images/hangman.png'
@@ -53,12 +52,12 @@ const IndexPage = () => (
           <p className="lead mb-5">
             Hi 👋🏻, I am Sachin Vashisht, a Web Developer and Competitive Programmer from New Delhi, India 🇮🇳
 
-I am final year student currently pursuing B Tech. in Information Technology from Delhi Technological University(Formerly known as Delhi College of Engineering).
+I am a Software Engineer at Salesforce and a B Tech. graduate in Information Technology from Delhi Technological University(Formerly known as Delhi College of Engineering).
           </p>
           <p className="lead mb-5">
             My areas of interest are Web Development, Problem Solving, Artificial Intelligence and Machine Learning. I am currently working with C++, Python, JavaScript and MERN(MongoDB, Express, ReactJs, Node.Js) Stack.
 
-            I have a strong foundation of Data Structures, Algorithms and Computer Science Fundamentals. I am currently looking for remote internships for web development and software development roles.
+            I have a strong foundation of Data Structures, Algorithms and Computer Science Fundamentals.
           </p>
 
           <div className="social-icons">
@@ -87,10 +86,10 @@ I am final year student currently pursuing B Tech. in Information Technology fro
               <h3 className="mb-0">Delhi Technological University (Formerly DCE)</h3>
               <div className="subheading">Bachelor of Technology</div>
               <div >Information Technology</div>
-              <p>Current Aggregate CGPA: 8.70</p>
+              <p>Current Aggregate CGPA: 8.84</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August'17 - June'21(Expected)</span>
+              <span className="text-primary">August'17 - June'21</span>
             </div>
           </div>
 

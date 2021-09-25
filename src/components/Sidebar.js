@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import mypic from '../assets/images/mypic.jpg';
+import mypic from '../assets/images/mypic.jpeg';
 import config from '../../config';
 
 export class Sidebar extends Component {
