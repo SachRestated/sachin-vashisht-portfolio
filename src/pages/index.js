@@ -297,72 +297,6 @@ I am final year student currently pursuing B Tech. in Information Technology fro
               </Card.Footer>
 
             </Card>
-
-
-            <Card>
-              <Card.Header>October'20 - November'20</Card.Header>
-              <Card.Img variant="top" src={chat} fluid />
-              <Card.Body>
-                <Card.Title>Chat Application</Card.Title>
-                <Card.Text>
-                  <ol style={{ listStyle: 'circle' }}>
-                    <li style={{ 'margin-bottom': '5px' }}>A Real-time Chat-Application developed using <strong>Express and Socket.IO Libraries.</strong></li>
-                    <li style={{ 'margin-bottom': '5px' }}><strong>Join an active chat room or make your own chat rooms</strong></li>
-                    <li style={{ 'margin-bottom': '5px' }}><strong>Prevents users from using Profane and Abusive English words</strong> in chats</li>
-                    
-                  </ol>
-
-                  <Container>
-                    <Row>
-                      <Col md={4} xs={4} sm={4} style={{ paddingLeft: '0', paddingRight: '0', paddingTop: '15px' }}>
-                        Built Using
-                      </Col>
-                      <Col md={4} xs={4} sm={4}>
-                          <img src={jsx} alt="js" height="45px" width="45px" />
-                      </Col>
-                      <Col md={4} xs={4} sm={4}>
-                          <img src={nodejs} alt="nodejs" height="48px" width="48px" />
-                      </Col>
-                      <Col md={{ span: 4, offset: 4 }} xs={{ span: 4, offset: 4 }} sm={{ span: 4, offset: 4 }}>
-                          <img src={cssx} alt="css" height="45px" width="45px" />
-                      </Col>
-                      <Col md={4} xs={4} sm={4}>
-                        <img src={htmlx} alt="html" height="48px" width="48px" />
-                      </Col>
-
-                    </Row>
-                  </Container>
-                </Card.Text>
-              </Card.Body>
-
-
-              <Card.Footer>
-                <Container>
-                  <Row>
-                    <Col>
-                      <a className='github-btn' href="https://github.com/SachRestated/Chat-App">
-                        <Button variant="outline-success" className='github-btn'>
-                          Github Repo
-                          </Button>
-                      </a>
-                    </Col>
-                    <Col>
-                      <a className='app-btn' href="https://sach-chat-app.herokuapp.com/">
-                        <Button variant="outline-info" className='app-btn'>
-                          Check it out
-                          </Button>
-                      </a>
-                    </Col>
-                  </Row>
-                </Container>
-              </Card.Footer>
-            </Card>
-
-
-            
-          </CardDeck>
-
-          <CardDeck style={{marginTop: '40px'}}>
             
             <Card>
               <Card.Header>June'20 - July'20</Card.Header>
@@ -430,7 +364,10 @@ specific time frame.</strong></li>
               </Card.Footer>
               
             </Card>
+          </CardDeck>
 
+          <CardDeck style={{marginTop: '40px'}}>
+            
             <Card>
               <Card.Header>July'19 - August'19</Card.Header>
               <Card.Img variant="top" src={hangman} fluid />
